@@ -75,7 +75,7 @@ IS состоит из следующих частей:
 ### Получение списка контактов (crm.contact.list)
 
 Пример запроса:
-`GET https://rshsh.bitrix24.ru/rest/23748/wgkqhxezug8efpm7/crm.contact.list.json?filter[%3EDATE_CREATE]=2020-12-20T09:54:41`
+`GET https://<bitrix-host>/rest/23748/wgkqhxezug8efpm7/crm.contact.list.json?filter[%3EDATE_CREATE]=2020-12-20T09:54:41`
 
 `%3E` - это символ `>`
 
@@ -158,7 +158,7 @@ IS состоит из следующих частей:
 ### Обновление полей контакта (crm.contact.update)
 
 Пример запроса:
-`GET https://rshsh.bitrix24.ru/rest/23748/wgkqhxezug8efpm7/crm.contact.update.json?ID=39558&FIELDS[UF_CRM_57AD7FAF7E6C4]=Успешно`
+`GET https://<bitrix-host>/rest/23748/wgkqhxezug8efpm7/crm.contact.update.json?ID=39558&FIELDS[UF_CRM_57AD7FAF7E6C4]=Успешно`
 
 Пример ответа:
 
@@ -176,7 +176,7 @@ IS состоит из следующих частей:
 ### Получение списка сделок (crm.deal.list)
 
 Пример запроса:
-`GET https://rshsh.bitrix24.ru/rest/23748/wgkqhxezug8efpm7/crm.deal.list.json?filter[>DATE_CREATE]=2020-12-20T09:54:41`
+`GET https://<bitrix-host>/rest/23748/wgkqhxezug8efpm7/crm.deal.list.json?filter[>DATE_CREATE]=2020-12-20T09:54:41`
 
 `%3E` - это символ `>`
 
@@ -278,7 +278,7 @@ IS состоит из следующих частей:
 ### Получение товарных позиций сделки (crm.deal.productrows.get)
 
 Пример запроса:
-`GET https://rshsh.bitrix24.ru/rest/23748/wgkqhxezug8efpm7/crm.deal.productrows.get.json?ID=96294`
+`GET https://<bitrix-host>/rest/23748/wgkqhxezug8efpm7/crm.deal.productrows.get.json?ID=96294`
 
 Пример ответа:
 
@@ -319,7 +319,7 @@ IS состоит из следующих частей:
 ### Получение продукта (crm.product.get)
 
 Пример запроса:
-`GET https://rshsh.bitrix24.ru/rest/23748/wgkqhxezug8efpm7/crm.product.get.json?id=55434`
+`GET https://<bitrix-host>/rest/23748/wgkqhxezug8efpm7/crm.product.get.json?id=55434`
 
 Пример ответа:
 
@@ -358,7 +358,7 @@ IS состоит из следующих частей:
 ### Обновление полей сделки (crm.deal.update)
 
 Пример запроса:
-`GET https://rshsh.bitrix24.ru/rest/23748/wgkqhxezug8efpm7/crm.deal.update.json?ID=167899&FIELDS[UF_CRM_57AD7FAF7E6C4]=Успешно`
+`GET https://<bitrix-host>/rest/23748/wgkqhxezug8efpm7/crm.deal.update.json?ID=167899&FIELDS[UF_CRM_57AD7FAF7E6C4]=Успешно`
 
 Пример ответа:
 
@@ -374,7 +374,7 @@ IS состоит из следующих частей:
 ### Получение информации о сотруднике (user.get)
 
 Пример запроса:
-`GET https://rshsh.bitrix24.ru/rest/23748/wgkqhxezug8efpm7/user.get.json?ID=12288`
+`GET https://<bitrix-host>/rest/23748/wgkqhxezug8efpm7/user.get.json?ID=12288`
 
 Пример ответа:
 
